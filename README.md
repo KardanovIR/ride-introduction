@@ -210,7 +210,7 @@ You can prepend a new element to an existing list using `cons` function. There i
 let valueFromBlockchain = getString("3PHHD7dsVqBFnZfUuDPLwbayJiQudQJ9Ngf", "someKey") # Union(String | Unit)
 ```
 
-Union types are a very convenient way to work with abstractions (?), `Union(String | Unit)` shows that the value can be **on of** these types.
+Union types are a very convenient way to work with abstractions (?), `Union(String | Unit)` shows that the value can be **one of** these types.
 
 `getString` returns `Union(String | Unit)` because while reading data from the blockchain (key-value state of accounts) some key-value pairs may not exist.
 
