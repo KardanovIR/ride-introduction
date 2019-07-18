@@ -263,7 +263,7 @@ let amount = match tx { # tx is a current outgoing transaction object in the glo
 }
 ```
 
-The code above shows an example of pattern matching using. There are different types of transactions in Waves blockchain and depending on the type the real amount of transferred tokens can be stored in different fields. If a transaction is `TransferTransaction` or ` MassTransferTransaction` we will take the proper field, in all other cases, we will get 0.
+The code above shows an example of pattern matching usage. There are different types of transactions in Waves blockchain and depending on the type, the real amount of transferred tokens can be stored in different fields. If a transaction is `TransferTransaction` or ` MassTransferTransaction` we will take the proper field, in all other cases, we will get 0.
 
 ## Pure functions
 
